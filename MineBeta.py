@@ -382,7 +382,7 @@ def main():
             if spot !=x-1:
                 if board[line][spot+1][1] != 2: board[line][spot+1][1] = 1
                 if (line !=0 and board[line-1][spot+1][1] != 2): board[line-1][spot+1][1] = 1
-                if (line !=y-1and board[line+1][spot+1][1] != 2): board[line+1][spot+1][1] = 1
+                if (line !=y-1 and board[line+1][spot+1][1] != 2): board[line+1][spot+1][1] = 1
             if (line !=0 and board[line-1][spot][1] != 2): board[line-1][spot][1] = 1
             if (line !=y-1 and board[line+1][spot][1] != 2): board[line+1][spot][1] = 1
 
